@@ -1,0 +1,87 @@
+body {
+  background: #fbfaf5;
+  color: #3d405b;
+}
+
+#topnav {
+  border-bottom: 1px solid rgba(61, 64, 91, 0.08);
+}
+
+#topnav .logo .big svg {
+  width: 250px;
+  max-width: 52vw;
+  height: auto;
+}
+
+.hero {
+  min-height: 78vh;
+  background: linear-gradient(180deg, #f4f1de 0%, #ffffff 100%);
+  padding: 104px 0 64px;
+}
+
+.hero .heading {
+  color: #3d405b;
+  font-size: clamp(2.25rem, 6vw, 4.75rem);
+  line-height: 1.02;
+  letter-spacing: 0;
+}
+
+.hero .para-desc {
+  color: #555a72 !important;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.classic-hero-image img {
+  width: unquote("min(520px, 100%)");
+  max-width: 100%;
+  filter: drop-shadow(0 24px 40px rgba(61, 64, 91, 0.16));
+}
+
+.btn-primary {
+  background-color: #e07a5f;
+  border-color: #e07a5f;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #c66248;
+  border-color: #c66248;
+}
+
+.btn-outline-primary {
+  color: #3d405b;
+  border-color: #81b29a;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: #81b29a;
+  border-color: #81b29a;
+  color: #ffffff;
+}
+
+.bg-soft-primary {
+  background-color: rgba(224, 122, 95, 0.14) !important;
+  color: #c66248 !important;
+}
+
+.features .icon,
+.features .no-icon {
+  background-color: rgba(129, 178, 154, 0.16);
+  color: #3d405b !important;
+}
+
+.features .title,
+.section-title .title {
+  color: #3d405b;
+}
+
+.text-primary,
+a.text-primary {
+  color: #c66248 !important;
+}
+
+footer.footer {
+  background: #3d405b;
+}

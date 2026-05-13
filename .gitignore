@@ -1,0 +1,27 @@
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock
+.hugo_cache/
+_vendor/
+hugo_stats.json
+
+# Go
+# go.sum is usually committed, but some workflows ignore it. 
+# I'll leave it out of ignore for now unless requested.
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs/Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

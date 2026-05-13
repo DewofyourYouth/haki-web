@@ -1,0 +1,60 @@
+baseURL = 'https://haki-game.com/'
+languageCode = 'en-us'
+title = 'Haki: Learn Levantine Arabic'
+enableRobotsTXT = true
+
+[params]
+  title = 'Haki: Learn Levantine Arabic'
+  description = 'Support, release notes, and product updates for Haki, a game for learning Levantine Arabic.'
+  images = ['images/haki/og-image.jpg']
+  sans_serif_font = "'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+  secondary_font = "'Poppins', 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+
+[params.docs]
+  title = 'Haki Support'
+  pathName = 'docs'
+  themeColor = 'cardinal'
+  darkMode = false
+  sidebarIcons = true
+  titleIcon = true
+  descriptions = true
+  breadcrumbs = true
+  toc = true
+  tocMobile = true
+  backToTop = true
+  logo = "images/haki-logo.png"
+  logoLinkURL = '/'
+
+[params.flexsearch]
+  enabled = true
+
+[[menus.primary]]
+  name = 'Play Web Game'
+  url = 'http://haki-game.com/'
+  weight = 10
+
+[[menus.primary]]
+  name = 'Support'
+  url = '/support/'
+  weight = 20
+
+[[menus.primary]]
+  name = 'Release Notes'
+  url = '/release-notes/'
+  weight = 30
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+
+[module]
+  [[module.imports]]
+    path = "github.com/colinwilson/lotusdocs"
+    disable = false
+  [[module.imports]]
+    path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+    disable = false

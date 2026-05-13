@@ -1,0 +1,97 @@
+[hero]
+  enable = true
+  weight = 10
+  template = 'hero'
+  title = 'Haki: Learn Levantine Arabic'
+  subtitle = 'A map-based language game for building everyday Levantine Arabic through short practice sessions, audio, vocabulary, and regional lessons.'
+  info = 'Use this site for support, release notes, and App Store support links.'
+
+  [hero.badge]
+    text = 'Support and updates'
+    color = 'primary'
+    soft = true
+    pill = true
+
+  [hero.ctaButton]
+    btnText = 'Get Support'
+    url = '/support/'
+    icon = 'help'
+
+  [hero.cta2Button]
+    btnText = 'Release Notes'
+    url = '/release-notes/'
+    icon = 'history'
+
+  [hero.image]
+    path = 'images/haki'
+    filename = 'levant-map.png'
+    alt = 'Stylized Levant map from Haki'
+
+[quick_links]
+  enable = true
+  weight = 20
+  template = 'feature_grid'
+  title = 'Find what you need'
+  subtitle = 'Direct links for players, App Store reviewers, and anyone checking what changed.'
+
+  [[quick_links.items]]
+    icon = 'support_agent'
+    title = 'Player support'
+    description = 'Troubleshooting, account help, audio issues, feedback, and contact details.'
+    [quick_links.items.ctaLink]
+      text = 'Open support'
+      url = '/support/'
+
+  [[quick_links.items]]
+    icon = 'new_releases'
+    title = 'Release notes'
+    description = 'A running changelog for web and mobile builds.'
+    [quick_links.items.ctaLink]
+      text = 'View updates'
+      url = '/release-notes/'
+
+  [[quick_links.items]]
+    icon = 'sports_esports'
+    title = 'Play on the web'
+    description = 'Try the current browser version of Haki while the mobile app is prepared.'
+    [quick_links.items.ctaLink]
+      text = 'Launch game'
+      url = 'http://haki-game.com/'
+
+[about]
+  enable = true
+  weight = 30
+  template = 'image_text'
+  title = 'Built for practical Levantine Arabic'
+  subtitle = 'Haki focuses on useful words, phrases, listening practice, and regional exposure across the Levant. The support site is intentionally small: it gives players a stable place to get help and gives release reviewers a clear support URL.'
+
+  [about.image]
+    path = 'images/haki'
+    filename = 'mascot-happy.png'
+    alt = 'Haki mascot'
+
+  [about.imgOrder]
+    desktop = 1
+    mobile = 1
+
+  [[about.list]]
+    icon = 'map'
+    text = 'Explore lessons through a regional map.'
+
+  [[about.list]]
+    icon = 'volume_up'
+    text = 'Practice with generated Arabic audio.'
+
+  [[about.list]]
+    icon = 'translate'
+    text = 'Study vocabulary, phrases, grammar, and common topics.'
+
+[featureGrid]
+  enable = false
+  weight = 90
+  template = 'feature grid'
+
+[imageCompare]
+  enable = false
+  weight = 100
+  template = 'image compare'

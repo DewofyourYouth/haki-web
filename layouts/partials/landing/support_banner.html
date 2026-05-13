@@ -1,0 +1,17 @@
+{{ $sectionTitle := .Scratch.Get "sectionTitle" }}
+{{ with (index .Site.Data.landing $sectionTitle) }}
+{{ if eq .enable true }}
+<section id="{{ $sectionTitle }}" class="haki-support-band">
+  <div class="container">
+    <div class="haki-support-band__inner">
+      <div>
+        <p class="haki-eyebrow mb-2">{{ .eyebrow }}</p>
+        <h2>{{ .title }}</h2>
+        <p>{{ .subtitle | markdownify }}</p>
+      </div>
+      <a class="btn btn-lg btn-primary" href="{{ .button.url }}">{{ .button.text }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

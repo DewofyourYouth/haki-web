@@ -1,0 +1,61 @@
+body {
+  color: #3d405b;
+}
+
+.sidebar-wrapper .sidebar-brand svg,
+.top-header .logo-icon .big svg {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+}
+
+.top-header .logo-icon .small svg {
+  width: 40px;
+  height: 40px;
+}
+
+.sidebar-wrapper {
+  border-right: 1px solid rgba(61, 64, 91, 0.08);
+}
+
+.content-title,
+.main-content h2,
+.main-content h3 {
+  color: #3d405b;
+  letter-spacing: 0;
+}
+
+.main-content a {
+  color: #c66248;
+}
+
+.main-content a:hover {
+  color: #a84f39;
+}
+
+.title-icon,
+.sidebar-menu .material-icons {
+  color: #e07a5f;
+}
+
+.btn-primary,
+.back-to-top {
+  background-color: #e07a5f;
+  border-color: #e07a5f;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #c66248;
+  border-color: #c66248;
+}
+
+.sidebar-menu li.current > a,
+.sidebar-menu li.current > button,
+.sidebar-menu li.active > button {
+  color: #c66248 !important;
+}
+
+.lead {
+  color: #6d708b;
+}
